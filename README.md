@@ -1,4 +1,4 @@
-# Framework for building GPT and Gemini Pro integrations through a unified design
+# Framework for building GPT and Gemini Pro function-calling integrations through a unified design
 
 This is a pilot toolkit for building well-designed, resilient Python-based integrations with both OpenAI's Assistants APIand Google Gemini Pro Vertex AI API, through a unified design.
 
