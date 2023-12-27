@@ -55,13 +55,13 @@ async def run():
             user_proxy = conversation.start_conversation("gpt", assistant_id=asst_id)
             cache["chat"] = user_proxy
             cache["choice"] = "GPT Conversation"
-            st.success('Conversation started!', icon="✅")
+            #st.success('Conversation started!', icon="✅")
         elif st.button("Start Gemini Pro Conversation", type="secondary", key="start_gemini"):
             clean_up()
             user_proxy = conversation.start_conversation("gemini")
             cache["chat"] = user_proxy
             cache["choice"] = "Gemini Pro Conversation"
-            st.success('Conversation started!', icon="✅")
+            #st.success('Conversation started!', icon="✅")
 
         stream = st.checkbox('Stream')
 
